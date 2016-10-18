@@ -23,7 +23,7 @@
 			<div class="parahead">
 				<p>Devenez développeur d'applications web et mobile en 6 mois, <br> située à Alès, coda est la formation qu'il vous faut!</p>
 
-				<a id="btn_inscr">S'INSCRIRE  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+				<a class="btn_inscr">S'INSCRIRE  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 			</div>
 		</section>
 
@@ -72,46 +72,60 @@
 
 		</section>
 
-		<section>
+		<section id="latin">
 			<h2>Massa libero</h2>
 			<hr />
-			<p> ipsum blablabla</p>
-			<button name="inscrire" value="s'inscrire">S'inscrire</button>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a class="btn_inscr" id="latinLink">S'INSCRIRE  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 		</section>
 
 		<section class="contact">
 
 			<form method="post" action="#" class="formulaire">
-				<div class="nomemail">
-					<div class="duoinput">
-						<label>Nom</label>
-						<input name="nom" type="text"/>
-					</div>
-					<div class="duoinput">
-						<label>Email</label>
-						<input name="email" type="text"/>
-					</div>
-				</div>
 
-				<label>Message</label>
-				<textarea name="message" type="text"></textarea>
-				<div class="duobouton">
-					<button name="envoyer" type="submit" id="envoyer">Envoyer</button>
-					<button name="effacer" id="effacer">Effacer</button>
-				</div>
+
+					<div class="duoinput">
+
+
+						<div class="inputLab">
+							<label for="nom">Nom</label>
+							<input name="nom" type="text"/>
+						</div>
+
+
+						<div class="inputLab">
+							<label for="email">E-mail</label>
+							<input name="email" type="text"/>
+						</div>
+
+					</div>
+
+
+					<label for="message">Message</label>
+					<textarea name="message" type="text"></textarea>
+
+
+					<div class="duobouton">
+						<button name="envoyer" type="submit" id="envoyer">ENVOYER</button>
+						<button name="effacer" type="reset" id="effacer">EFFACER</button>
+					</div>
+
 			</form>
 
 			<aside>
+
 				<div>
 					<i class="fa fa-envelope" aria-hidden="true"></i>
 					<h3>Email</h3>
 					<a href="#">information@unlited.fr</a>
 				</div>
+
 				<div>
 					<i class="fa fa-phone" aria-hidden="true"></i>
 					<h3>Téléphone</h3>
 					<a href="tel:+33405060708">04 05 06 07 08</a>
 				</div>
+
 				<div>
 					<i class="fa fa-home" aria-hidden="true"></i>
 					<h3>Adresse</h3>
@@ -127,16 +141,11 @@
 		<footer>
 			<nav>
 				<ul>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-</a></li>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
-</a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
-</a></li>
-					<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i>
-</a></li>
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
-</a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
 			<p> &copy; 2016 | Design CODA by Simplon </p>

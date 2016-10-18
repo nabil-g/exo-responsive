@@ -2,6 +2,7 @@
 {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 
@@ -22,7 +23,6 @@ header
 {
 	display: flex;
 	justify-content: space-between;
-	background-color: #232947;
 	color: #FFF;
 	padding: 18px;
 }
@@ -39,9 +39,8 @@ header a
 	justify-content: center;
 	width: 100%;
 	height: 350px;
-	background-color: #232947;
 	color: #FFF;
-	padding: 35px;
+	padding: 70px;
 }
 
 .parahead{
@@ -49,17 +48,16 @@ header a
 	align-items: center;
 }
 
-.ban h1, .ban hr, .ban p{
-	margin-bottom: 20px;
+.ban h1, .ban hr, .ban p, .btn_inscr{
+	margin: auto;
 }
 
 
 
-#btn_inscr
+.btn_inscr
 {
 	padding: 10px;
 	border: 2px solid white;
-	margin: auto;
 }
 
 .fa-long-arrow-right{
@@ -141,13 +139,22 @@ hr{
 }
 
 h2, hr, p{
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 /* End section image */
 
 
 /*massa libero*/
+
+#latin{
+	height: 300px;
+	background-color: #2A2F4A;
+}
+
+#latin h2, #latin hr, #latin p, #latinLink{
+	margin: auto;
+}
 
 
 
@@ -159,40 +166,47 @@ h2, hr, p{
 .formulaire {
 	display: flex;
 	flex-direction: column;
-	margin: 0 15px 15px 15px;
 	width: 50%;
 }
 
 #envoyer {
-	margin: 10px 10px 10px 0;
 	height: 50px;
 	width: 150px;
-	background-color: #fff;
+	background-color: white;
+	border: 0;
 	color: #232947;
+
 }
 
-#effacer {
-	margin:10px;
+#effacer{
 	height: 50px;
 	width: 150px;
-	border:solid 2px white;
-}
-.duobouton{
-	display: flex;
-	flex-direction: row;
+	border: 2px solid white;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
 }
 
 .duoinput{
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.inputLab{
+	display: flex;
 	flex-direction: column;
-	width: 225px;
-
-
+	justify-content: space-between;
+	width: 45%;
 }
 
 form input {
 	border: inherit;
 	background-color: rgba(212,212,255,0.035)!important;
+}
+
+.duobouton{
+	display: flex;
+	flex-direction: row;
 
 }
 
@@ -200,7 +214,7 @@ form input {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 30px;
+
 }
 textarea {
 	height: 170px;
@@ -209,13 +223,25 @@ textarea {
 	resize: none;
 }
 
-label {
+
+
+label, input, textarea, button{
+	margin: 10px;
+}
+
+form div{
 	margin-bottom: 10px;
+}
+
+button{
+	margin-right: 10px;
 }
 
 .contact{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+
+	padding: 50px;
 }
 section form{
 	display: flex;
@@ -227,6 +253,10 @@ section form label{
 section form input{
 	height: 50px;
 	background-color: rgba(35,41,71,0.1);
+}
+
+aside div{
+	margin: 30px;
 }
 aside a{
 	color: white;
@@ -256,8 +286,7 @@ footer nav ul li{
 }
 
 footer{
-	background-color: #232947;
-
+	border: 1px solid black;
 }
 footer a{
 	color: #232947;
