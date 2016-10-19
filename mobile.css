@@ -1,0 +1,69 @@
+@media screen and (max-width:1024px) {
+
+  .ban {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      color: #FFF;
+      padding: 20px;
+  }
+
+  .parahead {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+
+.bloc1, .bloc2, .bloc3{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.bloc1 article, .bloc2 article, .bloc3 article{
+  flex:1;
+}
+
+/*.bloc1 div:hover::before, .bloc2 div:hover::before, .bloc3 div:hover::before,.bloc1 article:hover::before, .bloc2 article:hover::before, .bloc3 article:hover::before{
+	opacity: none;
+}*/
+
+  #latin{
+    padding: 20px;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  .formulaire{
+    margin: 0;
+    width: 100%;
+  }
+
+  .duoinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  aside{
+    width: 100%;
+  }
+
+  footer{
+    padding: 20px;
+  }
+
+  footer ul{
+    margin: auto;
+  }
+
+}
