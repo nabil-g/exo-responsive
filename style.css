@@ -1,4 +1,4 @@
-*
+* /*  RESET CSS */
 {
 	margin: 0;
 	padding: 0;
@@ -13,7 +13,7 @@ body{
 	background-color: #232947;
 	color: #fff;
 }
-/* header */
+/* HEADER */
 
 span{
 	background-color: white;
@@ -32,15 +32,71 @@ header a
 {
 	color: white;
 	text-decoration: none;
+}
+
+/*MENU*/
+
+.menu{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
 
 }
+
+.menu #cross{
+	float: right;
+
+}
+
+.menu *{
+	z-index: 3;
+}
+
+.menu nav ul{
+	list-style-type: none;
+}
+
+.menu nav{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.menu nav ul li{
+	margin: 10px;
+}
+
+.menu nav a{
+	margin: 10px;
+}
+
+.menu::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(138, 159, 214, 0.7);
+	-moz-transition: opacity 0.5s ease;
+	-webkit-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*BANNIERE*/
 
 #grandTitre{
 	font-size: 2em;
 }
-
-
-
 
 .ban{
 	display: flex;
