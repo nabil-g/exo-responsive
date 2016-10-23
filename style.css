@@ -50,10 +50,10 @@ header a
 
 
 
-.visible{
+/*.visible{
 	position: absolute;
 	display: block !important;
-}
+}*/
 
 #cross{
 	right: 20px;
